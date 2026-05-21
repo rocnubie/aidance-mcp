@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rocnubie/aidance-mcp",
+  "title": "AI Dance MCP",
+  "description": "Turn photos into realistic dance videos with AI motion transfer.",
+  "version": "0.1.0",
+  "websiteUrl": "https://aidance.live",
+  "repository": {
+    "url": "https://github.com/rocnubie/aidance-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/rocnubie/aidance-mcp/main/assets/hero.png",
+      "mimeType": "image/png"
+    }
+  ]
+}
