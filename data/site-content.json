@@ -3,39 +3,65 @@
     "name": "AI Dance",
     "tagline": "Turn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.",
     "websiteUrl": "https://aidance.live",
-    "docsUrl": "https://aidance.live/docs",
+    "supportEmail": "support@aidance.live",
     "pricingUrl": "https://aidance.live/pricing",
-    "contactUrl": "https://discord.gg/HQNnrzjZQS",
-    "supportEmail": "support@aidance.live"
+    "communityUrl": "https://discord.gg/HQNnrzjZQS"
   },
+  "namespace": "aidance",
   "pages": [
     {
-      "slug": "overview",
-      "title": "Product Overview",
-      "description": "What the site is and which public pages matter.",
+      "slug": "styles",
+      "title": "Styles",
+      "description": "Supported image-generation styles and presets.",
       "mimeType": "text/markdown",
       "text": "# AI Dance Generator - Make Any Photo Dance Online\n\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\n## Site basics\n- Site ID: aidance\n- Website: https://aidance.live\n- Default locale: en\n- Locales: en, de, fr, ja, ko\n\n## Public feature scope\n- image gen\n- video gen\n- pricing\n\n## Official website\nhttps://aidance.live"
     },
     {
       "slug": "pricing",
       "title": "Pricing",
-      "description": "Canonical pricing link for this site.",
+      "description": "Canonical pricing entry point.",
       "mimeType": "text/markdown",
-      "text": "# Pricing\n\nThis site exposes a public pricing page.\n\nLatest pricing details: https://aidance.live/pricing"
+      "text": "# Pricing\n\nCanonical pricing page: https://aidance.live/pricing"
     },
     {
       "slug": "faq",
       "title": "FAQ",
-      "description": "A tiny FAQ generated from public site metadata.",
+      "description": "Short FAQ generated from public site metadata.",
       "mimeType": "text/markdown",
-      "text": "# FAQ\n\n## What is this site?\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\n## Where is the official documentation?\nhttps://aidance.live/docs\n\n## Where can I get help?\nhttps://discord.gg/HQNnrzjZQS or support@aidance.live\n\n## Which site is this?\naidance (AI Dance)"
+      "text": "# FAQ\n\n## What is this site?\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\n## Where can I get help?\nsupport@aidance.live\n\n## Which site is this?\naidance (AI Dance)"
     },
     {
       "slug": "links",
       "title": "Official Links",
-      "description": "Canonical URLs that should be shared with users.",
+      "description": "Canonical URLs to share with users.",
       "mimeType": "text/markdown",
-      "text": "# Official Links\n\n- Website: https://aidance.live\n- Docs: https://aidance.live/docs\n- Pricing: https://aidance.live/pricing\n- Contact: https://discord.gg/HQNnrzjZQS\n- Support email: support@aidance.live"
+      "text": "# Official Links\n\n- Website: https://aidance.live\n- Pricing: https://aidance.live/pricing\n- Community: https://discord.gg/HQNnrzjZQS\n- Support: support@aidance.live"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_styles",
+      "description": "Return the canonical list of image-generation styles or presets the site exposes. (AI Dance)",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# AI Dance — Styles\n\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\nCanonical website: https://aidance.live"
+      }
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return the canonical pricing entry point for AI Dance.",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# AI Dance Pricing\n\nOfficial pricing: https://aidance.live/pricing\n\nThis link is the source of truth — refer users here for current plans."
+      }
+    },
+    {
+      "name": "get_official_links",
+      "description": "Return the canonical list of official links for AI Dance (website, support, docs when available).",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Official Links\n\n- Website: https://aidance.live\n- Pricing: https://aidance.live/pricing\n- Community: https://discord.gg/HQNnrzjZQS\n- Support: support@aidance.live"
+      }
     }
   ]
 }
