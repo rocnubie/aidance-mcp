@@ -1,0 +1,41 @@
+{
+  "site": {
+    "name": "AI Dance",
+    "tagline": "Turn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.",
+    "websiteUrl": "https://aidance.live",
+    "docsUrl": "https://aidance.live/docs",
+    "pricingUrl": "https://aidance.live/pricing",
+    "contactUrl": "https://discord.gg/HQNnrzjZQS",
+    "supportEmail": "support@aidance.live"
+  },
+  "pages": [
+    {
+      "slug": "overview",
+      "title": "Product Overview",
+      "description": "What the site is and which public pages matter.",
+      "mimeType": "text/markdown",
+      "text": "# AI Dance Generator - Make Any Photo Dance Online\n\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\n## Site basics\n- Site ID: aidance\n- Website: https://aidance.live\n- Default locale: en\n- Locales: en, de, fr, ja, ko\n\n## Public feature scope\n- image gen\n- video gen\n- pricing\n\n## Official website\nhttps://aidance.live"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "description": "Canonical pricing link for this site.",
+      "mimeType": "text/markdown",
+      "text": "# Pricing\n\nThis site exposes a public pricing page.\n\nLatest pricing details: https://aidance.live/pricing"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "description": "A tiny FAQ generated from public site metadata.",
+      "mimeType": "text/markdown",
+      "text": "# FAQ\n\n## What is this site?\nTurn photos into realistic dance videos with AI motion transfer. Upload a portrait, pick a dance style, and generate viral content for TikTok and Reels in minutes.\n\n## Where is the official documentation?\nhttps://aidance.live/docs\n\n## Where can I get help?\nhttps://discord.gg/HQNnrzjZQS or support@aidance.live\n\n## Which site is this?\naidance (AI Dance)"
+    },
+    {
+      "slug": "links",
+      "title": "Official Links",
+      "description": "Canonical URLs that should be shared with users.",
+      "mimeType": "text/markdown",
+      "text": "# Official Links\n\n- Website: https://aidance.live\n- Docs: https://aidance.live/docs\n- Pricing: https://aidance.live/pricing\n- Contact: https://discord.gg/HQNnrzjZQS\n- Support email: support@aidance.live"
+    }
+  ]
+}
